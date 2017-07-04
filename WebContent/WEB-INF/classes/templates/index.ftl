@@ -14,10 +14,11 @@
                  <td>${user.id}</td>
                  <td>${user.username}</td>
                  <td>${user.age}</td>
-                 <td><a href="/user/updateuser/${user.id}">修改</a></td>
+                 <td><a href="/user/update?id=${user.id}">修改</a></td>
                  <td><a href="/user/del/${user.id}">删除</a></td>
              </tr>
          </#list>
      </table>
 </body>
 </html>
+
